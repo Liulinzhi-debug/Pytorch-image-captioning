@@ -1,0 +1,11 @@
+torch
+torch
+torchvision
+pandas
+numpy
+Pillow
+matplotlib
+tqdm
+kagglehub
+gradio
+spacy==3.7.2

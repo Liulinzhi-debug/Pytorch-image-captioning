@@ -1,0 +1,20 @@
+# Datasets
+data/
+
+# Saved models and logs
+models/
+runs/
+training_logs/
+
+# Output folders
+prediction_plots/
+
+# Python specific
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+
+# Model files
+*.pth
