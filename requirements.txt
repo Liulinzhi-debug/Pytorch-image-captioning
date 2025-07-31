@@ -1,11 +1,10 @@
-torch
-torch
-torchvision
-pandas
-numpy
-Pillow
-matplotlib
-tqdm
-kagglehub
-gradio
-spacy==3.7.2
+torch == 2.7.1
+torchvision == 0.22.1
+pandas == 2.3.1
+numpy == 1.26.4
+Pillow == 11.3.0
+matplotlib == 3.10.3
+tqdm == 4.67.1
+kagglehub == 0.3.12
+gradio == 5.38.2
+spacy == 3.7.2
