@@ -23,7 +23,7 @@ ROOT_DIR = "data/flickr8k/Images"
 CAPTIONS_FILE = "data/flickr8k/captions.txt"
 
 # --- 设置 ---
-device = "cuda:1" if torch.cuda.is_available() else "cpu"
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # --- 核心修改：为训练集和验证集定义不同的图像变换 ---
 # 训练集变换：包含数据增强，提高模型泛化能力
